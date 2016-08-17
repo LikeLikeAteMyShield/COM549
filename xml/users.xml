@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<users>
+    <user id="usr01">
+        <name>Jonny</name>
+        <email>jonny@gmail.com</email>
+        <password>b3JhbmdlczE=</password>
+    </user>
+    <user id="usr02">
+        <name>Jamie</name>
+        <email>jamie@hotmail.com</email>
+        <password>c2hyZWs=</password>
+    </user>
+    <user id="usr03">
+        <name>Adam</name>
+        <email>adam@talktalk.net</email>
+        <password>bWF0cmljZXM=</password>
+    </user>
+    <user id="usr04">
+        <name>Andrew</name>
+        <email>andrew@aol.com</email>
+        <password>bWFuZHJha2U=</password>
+    </user>
+</users>
