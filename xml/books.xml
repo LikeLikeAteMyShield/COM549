@@ -5,7 +5,7 @@
       <title>The Girl on the Train</title>
       <genre>Crime</genre>
       <price>7.99</price>
-      <publish_date>05/05/2016</publish_date>
+      <publish_year>2015</publish_year>
       <pages>432</pages>
       <image>images/thegirlonthetrain.jpg</image>
    </book>
@@ -14,7 +14,7 @@
       <title>Jojo Moyes</title>
       <genre>Romance</genre>
       <price>7.99</price>
-      <publish_date>30/06/2016</publish_date>
+      <publish_year>2015</publish_year>
       <pages>416</pages>
       <image>images/afteryou.jpg</image>
    </book>
@@ -23,7 +23,7 @@
       <title>15th Affair</title>
       <genre>Crime</genre>
       <price>7.99</price>
-      <publish_date>11/08/2016</publish_date>
+      <publish_year>2016</publish_year>
       <pages>480</pages>
       <image>images/15thaffair.jpg</image>
    </book>
@@ -32,7 +32,7 @@
       <title>Three Sisters, Three Queens</title>
       <genre>Historical Fiction</genre>
       <price>20.00</price>
-      <publish_date>09/08/2016</publish_date>
+      <publish_year>2016</publish_year>
       <pages>560</pages>
       <image>images/threesisters.jpg</image>
    </book>
@@ -41,7 +41,7 @@
       <title>In the Cold Dark Ground</title>
       <genre>Crime</genre>
       <price>7.99</price>
-      <publish_date>11/08/2016</publish_date>
+      <publish_year>2016</publish_year>
       <pages>528</pages>
       <image>images/colddarkground.jpg</image>
    </book>
@@ -50,7 +50,7 @@
       <title>Me Before You</title>
       <genre>Romance</genre>
       <price>7.99</price>
-      <publish_date>05/01/2012</publish_date>
+      <publish_year>2012</publish_year>
       <pages>512</pages>
       <image>images/mebeforeyou.jpg</image>
    </book>
@@ -59,7 +59,7 @@
       <title>Murder House</title>
       <genre>Crime</genre>
       <price>7.99</price>
-      <publish_date>14/07/2016</publish_date>
+      <publish_year>2015</publish_year>
       <pages>560</pages>
       <image>images/murderhouse.jpg</image>
    </book>
@@ -68,7 +68,7 @@
       <title>Local Girl Missing</title>
       <genre>Thriller</genre>
       <price>7.99</price>
-      <publish_date>11/08/2016</publish_date>
+      <publish_year>2016</publish_year>
       <pages>400</pages>
       <image>images/localgirlmissing.jpg</image>
    </book>
@@ -77,7 +77,7 @@
       <title>Speaking in Bones</title>
       <genre>Crime</genre>
       <price>7.99</price>
-      <publish_date>28/07/2016</publish_date>
+      <publish_year>2015</publish_year>
       <pages>432</pages>
       <image>images/speakinginbones.jpg</image>
    </book>
@@ -86,7 +86,7 @@
       <title>Where My Heart Used to Beat</title>
       <genre>Historical Fiction</genre>
       <price>8.99</price>
-      <publish_date>30/06/2016</publish_date>
+      <publish_year>2016</publish_year>
       <pages>336</pages>
       <image>images/wheremyheart.jpg</image>
    </book>
@@ -95,7 +95,7 @@
       <title>Go Set a Watchman</title>
       <genre>Fiction</genre>
       <price>7.99</price>
-      <publish_date>14/07/2015</publish_date>
+      <publish_year>2015</publish_year>
       <pages>288</pages>
       <image>images/gosetawatchman.jpg</image>
    </book>
@@ -104,7 +104,7 @@
       <title>The Marble Collector</title>
       <genre>Fiction</genre>
       <price>7.99</price>
-      <publish_date>05/05/2016</publish_date>
+      <publish_year>2015</publish_year>
       <pages>384</pages>
       <image>images/marblecollector.jpg</image>
    </book>
