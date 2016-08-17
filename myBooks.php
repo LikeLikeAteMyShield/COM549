@@ -15,14 +15,18 @@
             <h1>My Books</h1>
         </div>
     </div>
-    <ul>
+    <div class="container">
+    <div class="row">
 <?php
     foreach($books as $book) { ?>
-        <li> 
-            <?php echo $book->title; ?> 
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+         
             <?php echo "<img src='$book->image'/>"; ?>
-        </li>
+            <p><?php echo $book->title; ?></p>
+        
+        </div>
     <?php
     }
 ?>
-    </ul>
+    </div>
+    </div>
