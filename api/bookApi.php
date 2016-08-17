@@ -48,4 +48,19 @@ function getBookById($id) {
     return $result;
 }
 
+function getAllGenres() {
+
+    $results = [];
+
+    foreach ($GLOBALS['bookxml'] as $book) {
+        $genre = $book->genre;
+        
+        if (!in_array($genre, $results)) {
+            array_push($results, $genre);
+        }
+    }
+
+    return array_unique($results);
+}
+
 ?>
