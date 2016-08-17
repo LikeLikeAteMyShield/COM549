@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<books>
+   <book id="bk101">
+      <author>Paula Hawkins</author>
+      <title>The Girl on the Train</title>
+      <genre>Crime</genre>
+      <price>7.99</price>
+      <publish_year>2015</publish_year>
+      <pages>432</pages>
+      <image>images/thegirlonthetrain.jpg</image>
+   </book>
+   <book id="bk102">
+      <author>After You</author>
+      <title>Jojo Moyes</title>
+      <genre>Romance</genre>
+      <price>7.99</price>
+      <publish_year>2015</publish_year>
+      <pages>416</pages>
+      <image>images/afteryou.jpg</image>
+   </book>
+   <book id="bk103">
+      <author>James Patterson</author>
+      <title>15th Affair</title>
+      <genre>Crime</genre>
+      <price>7.99</price>
+      <publish_year>2016</publish_year>
+      <pages>480</pages>
+      <image>images/15thaffair.jpg</image>
+   </book>
+   <book id="bk104">
+      <author>Philippa Gregory</author>
+      <title>Three Sisters, Three Queens</title>
+      <genre>Historical Fiction</genre>
+      <price>20.00</price>
+      <publish_year>2016</publish_year>
+      <pages>560</pages>
+      <image>images/threesisters.jpg</image>
+   </book>
+   <book id="bk105">
+      <author>Stuart MacBride</author>
+      <title>In the Cold Dark Ground</title>
+      <genre>Crime</genre>
+      <price>7.99</price>
+      <publish_year>2016</publish_year>
+      <pages>528</pages>
+      <image>images/colddarkground.jpg</image>
+   </book>
+   <book id="bk106">
+      <author>Jojo Moyes</author>
+      <title>Me Before You</title>
+      <genre>Romance</genre>
+      <price>7.99</price>
+      <publish_year>2012</publish_year>
+      <pages>512</pages>
+      <image>images/mebeforeyou.jpg</image>
+   </book>
+   <book id="bk107">
+      <author>James Patterson</author>
+      <title>Murder House</title>
+      <genre>Crime</genre>
+      <price>7.99</price>
+      <publish_year>2015</publish_year>
+      <pages>560</pages>
+      <image>images/murderhouse.jpg</image>
+   </book>
+   <book id="bk108">
+      <author>Claire Douglas</author>
+      <title>Local Girl Missing</title>
+      <genre>Thriller</genre>
+      <price>7.99</price>
+      <publish_year>2016</publish_year>
+      <pages>400</pages>
+      <image>images/localgirlmissing.jpg</image>
+   </book>
+   <book id="bk109">
+      <author>Kathy Reichs</author>
+      <title>Speaking in Bones</title>
+      <genre>Crime</genre>
+      <price>7.99</price>
+      <publish_year>2015</publish_year>
+      <pages>432</pages>
+      <image>images/speakinginbones.jpg</image>
+   </book>
+   <book id="bk110">
+      <author>Sebastian Faulks</author>
+      <title>Where My Heart Used to Beat</title>
+      <genre>Historical Fiction</genre>
+      <price>8.99</price>
+      <publish_year>2016</publish_year>
+      <pages>336</pages>
+      <image>images/wheremyheart.jpg</image>
+   </book>
+   <book id="bk111">
+      <author>Harper Lee</author>
+      <title>Go Set a Watchman</title>
+      <genre>Fiction</genre>
+      <price>7.99</price>
+      <publish_year>2015</publish_year>
+      <pages>288</pages>
+      <image>images/gosetawatchman.jpg</image>
+   </book>
+   <book id="bk112">
+      <author>Cecelia Ahern</author>
+      <title>The Marble Collector</title>
+      <genre>Fiction</genre>
+      <price>7.99</price>
+      <publish_year>2015</publish_year>
+      <pages>384</pages>
+      <image>images/marblecollector.jpg</image>
+   </book>
+</books>
