@@ -1,10 +1,16 @@
 <?php
     include("components/head.php");
+    include("api/authService.php");
 
-    if(isset($_POST['userEmail'])){
-        session_start();
-        $_SESSION['name'] = $_POST['userEmail'];
-        header("location: index.php");
+    if(isset($_POST['userEmail']) && isset($_POST['userPassword'])){
+
+        $username = authenticateUser($_POST['userEmail'], base64_encode($_POST['userPassword']));
+        echo $username;
+        if ($username != null) {
+            session_start();
+            $_SESSION['name'] = $username;
+            header("location: index.php");
+        }
     }
 ?>
 
