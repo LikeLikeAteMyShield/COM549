@@ -4,6 +4,11 @@
         <name>Jonny</name>
         <email>jonny@gmail.com</email>
         <password>b3JhbmdlczE=</password>
+        <books>
+            <book>bk101</book>
+            <book>bk102</book>
+            <book>bk103</book>
+        </books>
     </user>
     <user id="usr02">
         <name>Jamie</name>
