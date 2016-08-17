@@ -12,23 +12,30 @@
             <book>bk105</book>
             <book>bk106</book>
             <book>bk107</book>
-            <book>bk108</book>
-            <book>bk109</book>
         </books>
     </user>
     <user id="usr02">
         <name>Jamie</name>
         <email>jamie@hotmail.com</email>
         <password>c2hyZWs=</password>
+        <books></books>
     </user>
     <user id="usr03">
         <name>Adam</name>
         <email>adam@talktalk.net</email>
         <password>bWF0cmljZXM=</password>
+        <books></books>
     </user>
     <user id="usr04">
         <name>Andrew</name>
         <email>andrew@aol.com</email>
         <password>bWFuZHJha2U=</password>
+        <books></books>
+    </user>
+    <user id="usr05">
+        <name>admin</name>
+        <email>admin@bookmarkers.com</email>
+        <password>MVBhc3N3b3JkMg==</password>
+        <books></books>
     </user>
 </users>

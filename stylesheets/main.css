@@ -5,3 +5,7 @@
 #login-message, #logout-message {
     color: cornflowerblue;
 }
+
+.book-image {
+    height: 350px;
+}

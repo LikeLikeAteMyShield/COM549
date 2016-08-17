@@ -35,4 +35,17 @@ function getUser($name) {
     return $result;
 }
 
+function getBookById($id) {
+
+    $result = null;
+
+    foreach ($GLOBALS['bookxml'] as $book) {
+        if (strcmp($id, $book['id']) == 0) {
+            $result = $book;
+        }
+    }
+
+    return $result;
+}
+
 ?>
