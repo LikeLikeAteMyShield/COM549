@@ -14,12 +14,11 @@ function getBooksForUser($name) {
 
     foreach($GLOBALS['bookxml'] as $book) {
         foreach($user->books->book as $userBook) {
-            if (strcmp($userBook['id'], $book['id']) == 0) {
+            if (strcmp($userBook, $book['id']) == 0) {
                 array_push($results, $book);
             }
         }
     }
-
     return $results;
 }
 
@@ -28,7 +27,7 @@ function getUser($name) {
     $result = null;
 
     foreach ($GLOBALS['userxml'] as $user) {
-        if ($user['id'] == $name) {
+        if ($user->name == $name) {
             $result = $user;
         }
     }
