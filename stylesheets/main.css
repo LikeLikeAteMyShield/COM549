@@ -29,13 +29,6 @@ body {
 
 .jumbotron {
 	background: transparent;
-    /*background: #f0b7a1; /* Old browsers */
-    /*background: -webkit-linear-gradient(bottom, #F2CCA7 0%, #B58D65 65%, #B58D65 100%);
-    background: -o-linear-gradient(bottom, #F2CCA7 0%, #B58D65 65%, #B58D65 100%);
-    background: linear-gradient(to top, #F2CCA7 0%, #B58D65 65%, #B58D65 100%); */
-    
-
-    /*background-color: #878787;*/
 
     border-bottom: 2px solid B5ADA6;
     font-family: sans-serif;
