@@ -11,13 +11,30 @@
     height: 350px;
 }
 
+.container-fluid {
+	background-color: B5ADA6;
+}
+
+
+
 body {
-    background-color: #fff2cc;
+    background-color: #D6D1CD;
+    background: -webkit-linear-gradient(bottom, #B5ADA6 0%, #D6D1CD 90%, #D6D1CD 100%);
+    background: -o-linear-gradient(bottom, #B5ADA6 0%, #D6D1CD 90%, #D6D1CD 100%);
+    background: linear-gradient(to top, #B5ADA6 0%, #D6D1CD 90%, #D6D1CD 100%); 
+    
 }
 
 .jumbotron {
-    background: #f0b7a1; /* Old browsers */
-    background: -webkit-linear-gradient(left, #f0b7a1 0%, #8c3310 65%, #752201 100%);
-    background: -o-linear-gradient(left, #f0b7a1 0%, #8c3310 65%, #752201 100%);
-    background: linear-gradient(to right, #f0b7a1 0%, #8c3310 65%, #752201 100%); 
+	background: transparent;
+    /*background: #f0b7a1; /* Old browsers */
+    /*background: -webkit-linear-gradient(bottom, #F2CCA7 0%, #B58D65 65%, #B58D65 100%);
+    background: -o-linear-gradient(bottom, #F2CCA7 0%, #B58D65 65%, #B58D65 100%);
+    background: linear-gradient(to top, #F2CCA7 0%, #B58D65 65%, #B58D65 100%); */
+    
+
+    /*background-color: #878787;*/
+
+    border-bottom: 2px solid B5ADA6;
+    font-family: sans-serif;
 }

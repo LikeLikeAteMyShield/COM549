@@ -26,7 +26,7 @@
 
 <?php
     foreach($books as $book) { ?>
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
             <?php echo "<img class='book-image' src='$book->image'/>"; ?>
             <p></p>
         </div>
