@@ -10,8 +10,8 @@
             <ul>
                 <?php 
                 foreach ($books as $book) {
-
-                    echo "<li><img src='$book->image' height='200' /></li>";
+                    $id = $book['id'];
+                    echo "<li><a href='book.php?id=$id'><img src='$book->image' height='200' /></a></li>";
                 }
                 ?>
             </ul>
