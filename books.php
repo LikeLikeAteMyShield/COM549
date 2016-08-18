@@ -11,10 +11,11 @@
     <div class="jumbotron">
         <div class="container">
             <h1>All Books</h1>
+            <hr>
         </div>
     </div>
     <div class="container">
-    <div class="row">
+    <div class="panel-body">
 
 <?php 
     if (count($books) == 0) {

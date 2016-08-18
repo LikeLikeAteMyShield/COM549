@@ -12,19 +12,25 @@
 }
 
 .container-fluid {
-	background-color: B5ADA6;
+	background-color: midnightblue;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
 }
 
 .panel-body {
-    background-color: B5ADA6;
+    background-color: #BDC8D8;
+    text-align: center;
+}
+
+.well {
+    text-align: center;
+    background-color: #BDC8D8;
 }
 
 body {
-    background-color: #D6D1CD;
-    background: -webkit-linear-gradient(bottom, #B5ADA6 0%, #D6D1CD 90%, #D6D1CD 100%);
-    background: -o-linear-gradient(bottom, #B5ADA6 0%, #D6D1CD 90%, #D6D1CD 100%);
-    background: linear-gradient(to top, #B5ADA6 0%, #D6D1CD 90%, #D6D1CD 100%); 
-    
+    background-color: #CFDCF0;
 }
 
 .jumbotron {
