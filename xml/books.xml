@@ -7,7 +7,7 @@
       <price>7.99</price>
       <publish_year>2015</publish_year>
       <pages>432</pages>
-      <image>images/thegirlonthetrain.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/55/2779777/xlarge/9780552779777_1.jpg</image>
    </book>
    <book id="bk102">
       <author>After You</author>
@@ -16,7 +16,7 @@
       <price>7.99</price>
       <publish_year>2015</publish_year>
       <pages>416</pages>
-      <image>images/afteryou.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/5909075/xlarge/9781405909075_1.jpg</image>
    </book>
    <book id="bk103">
       <author>James Patterson</author>
@@ -25,7 +25,7 @@
       <price>7.99</price>
       <publish_year>2016</publish_year>
       <pages>480</pages>
-      <image>images/15thaffair.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9594581/xlarge/9780099594581_1.jpg</image>
    </book>
    <book id="bk104">
       <author>Philippa Gregory</author>
@@ -34,7 +34,7 @@
       <price>20.00</price>
       <publish_year>2016</publish_year>
       <pages>560</pages>
-      <image>images/threesisters.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/47/1133015/xlarge/9781471133015_1.jpg</image>
    </book>
    <book id="bk105">
       <author>Stuart MacBride</author>
@@ -43,7 +43,7 @@
       <price>7.99</price>
       <publish_year>2016</publish_year>
       <pages>528</pages>
-      <image>images/colddarkground.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7494675/xlarge/9780007494675_1.jpg</image>
    </book>
    <book id="bk106">
       <author>Jojo Moyes</author>
@@ -52,7 +52,7 @@
       <price>7.99</price>
       <publish_year>2012</publish_year>
       <pages>512</pages>
-      <image>images/mebeforeyou.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/71/8157838/xlarge/9780718157838_1.jpg</image>
    </book>
    <book id="bk107">
       <author>James Patterson</author>
@@ -61,7 +61,7 @@
       <price>7.99</price>
       <publish_year>2015</publish_year>
       <pages>560</pages>
-      <image>images/murderhouse.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9594888/xlarge/9780099594888_1.jpg</image>
    </book>
    <book id="bk108">
       <author>Claire Douglas</author>
@@ -70,7 +70,7 @@
       <price>7.99</price>
       <publish_year>2016</publish_year>
       <pages>400</pages>
-      <image>images/localgirlmissing.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/5926393/xlarge/9781405926393_1.jpg</image>
    </book>
    <book id="bk109">
       <author>Kathy Reichs</author>
@@ -79,7 +79,7 @@
       <price>7.99</price>
       <publish_year>2015</publish_year>
       <pages>432</pages>
-      <image>images/speakinginbones.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9558095/xlarge/9780099558095_1.jpg</image>
    </book>
    <book id="bk110">
       <author>Sebastian Faulks</author>
@@ -88,7 +88,7 @@
       <price>8.99</price>
       <publish_year>2016</publish_year>
       <pages>336</pages>
-      <image>images/wheremyheart.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9549246/xlarge/9780099549246_1.jpg</image>
    </book>
    <book id="bk111">
       <author>Harper Lee</author>
@@ -97,7 +97,7 @@
       <price>7.99</price>
       <publish_year>2015</publish_year>
       <pages>288</pages>
-      <image>images/gosetawatchman.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/78/4752460/xlarge/9781784752460_1.jpg</image>
    </book>
    <book id="bk112">
       <author>Cecelia Ahern</author>
@@ -106,6 +106,6 @@
       <price>7.99</price>
       <publish_year>2015</publish_year>
       <pages>384</pages>
-      <image>images/marblecollector.jpg</image>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7501847/xlarge/9780007501847_1.jpg</image>
    </book>
 </books>
