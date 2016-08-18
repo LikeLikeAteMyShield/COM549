@@ -43,7 +43,8 @@
 			$xml->asXML('xml/books.xml'); //Saves the xml file
 		}
 		else{
-			echo "Please fill out all of the fields in the form correctly.";
+			echo "<script type=\"text/javascript\">alert(\"Please fill out all of the fields in the form correctly.\")
+			</script>";
 		}
 	}
 
