@@ -63,30 +63,4 @@ function getAllGenres() {
     return array_unique($results);
 }
 
-function filterByGenre($genre) {
-
-    $results = [];
-
-    foreach ($GLOBALS['bookxml'] as $book) {
-        if (strcmp($book->genre, $genre)) {
-            array_push($results, $book);
-        }
-    }
-
-    return $results;
-}
-
-function filterByAuthor($author) {
-
-    $results = [];
-
-    foreach ($GLOBALS['bookxml'] as $book) {
-        if (strcmp($book->author, $author)) {
-            array_push($results, $book);
-        }
-    }
-
-    return $results;
-}
-
 ?>
