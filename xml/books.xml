@@ -201,7 +201,7 @@
    <book id="bk123">
       <author>Dawn French</author>
       <title>According to Yes</title>
-      <genre<name />Fiction</genre>
+      <genre>Fiction</genre>
       <price>4.79</price>
       <publish_year>2016</publish_year>
       <pages>384</pages>
