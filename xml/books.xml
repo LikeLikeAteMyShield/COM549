@@ -108,4 +108,77 @@
       <pages>384</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7501847/xlarge/9780007501847_1.jpg</image>
    </book>
+   <book id="bk113">
+      <author>Tess Gerritsen</author>
+      <title>Playing with Fire</title>
+      <genre>Crime</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>320</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/85/7502940/xlarge/9780857502940_1.jpg</image>
+   </book>
+   <book id="bk114">
+      <author>Susan Lewis</author>
+      <title>The Girl Who Came Back</title>
+      <genre>Romance</genre>
+      <price>5.24</price>
+      <publish_year>2016</publish_year>
+      <pages>432</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9586548/xlarge/9780099586548_1.jpg</image>
+   </book>
+   <book id="bk115">
+      <author>S. J. Watson</author>
+      <title>Second Life</title>
+      <genre>Crime</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>464</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/78/4161644/xlarge/9781784161644_1.jpg</image>
+   </book>
+   <book id="bk116">
+      <author>Martina Cole</author>
+      <title>Get Even</title>
+      <genre>Thriller</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>370</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/47/2201010/xlarge/9781472201010_1.jpg</image>
+   </book>
+   <book id="bk117">
+      <author>David Baldacci</author>
+      <title>The Guilty</title>
+      <genre>Crime</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>428</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/44/7277569/xlarge/9781447277569_1.jpg</image>
+   </book>
+   <book id="bk118">
+      <author>Tim Weaver</author>
+      <title>Broken Heart</title>
+      <genre>Crime</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>428</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/5917827/xlarge/9781405917827_1.jpg</image>
+   </book>
+   <book id="bk119">
+      <author>Patricia Cornwell</author>
+      <title>Depraved Heart</title>
+      <genre>Thriller</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>480</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7552498/xlarge/9780007552498_1.jpg</image>
+   </book>
+   <book id="bk120">
+      <author>John Grisham</author>
+      <title>Rogue Lawyer</title>
+      <genre>Thriller</genre>
+      <price>4.79</price>
+      <publish_year>2016</publish_year>
+      <pages>384</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/47/3622883/xlarge/9781473622883_1.jpg</image>
+   </book>
+   
 </books>
