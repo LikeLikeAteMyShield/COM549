@@ -1,30 +1,52 @@
 <?php
-    include("components/head.php"); ?>
+    include("components/head.php");
+    include("api/bookApi.php");
 
-<body>
+    $books = getAllBooks();
+?>
+
     <div id="scroller" style="height: 200px; margin: 0 auto;">
         <div class="innerScrollArea">
             <ul>
-                <!-- HARD CODED PHOTOS -->
-                <li><img src="images/15thaffair.jpg" height="200" /></li>
-                <li><img src="images/afteryou.jpg" height="200" /></li>
-                <li><img src="images/colddarkground.jpg" height="200" /></li>
-                <li><img src="images/gosetawatchman.jpg" height="200" /></li>
-                <li><img src="images/localgirlmissing.jpg" height="200" /></li>
-                <li><img src="images/marblecollector.jpg" height="200" /></li>
-                <li><img src="images/15thaffair.jpg" height="200" /></li>
-                <li><img src="images/afteryou.jpg" height="200" /></li>
-                <li><img src="images/colddarkground.jpg" height="200" /></li>
-                <li><img src="images/gosetawatchman.jpg" height="200" /></li>
-                <li><img src="images/localgirlmissing.jpg" height="200" /></li>
-                <li><img src="images/marblecollector.jpg" height="200" /></li>
-                <li><img src="images/15thaffair.jpg" height="200" /></li>
-                <li><img src="images/afteryou.jpg" height="200" /></li>
-                <li><img src="images/colddarkground.jpg" height="200" /></li>
-                <li><img src="images/gosetawatchman.jpg" height="200" /></li>
-                <li><img src="images/localgirlmissing.jpg" height="200" /></li>
-                <li><img src="images/marblecollector.jpg" height="200" /></li>
+                <?php 
+                foreach ($books as $book) {
+
+                    echo "<li><img src='$book->image' height='200' /></li>";
+                }
+                ?>
             </ul>
         </div>
     </div>
+    <br>
+
+    <?php 
+    if (isset($_SESSION['name'])) {
+        $currentUser = getUser($_SESSION['name']);
+        $recommendedBooks = filterByGenre($currentUser->favGenre);
+    ?>
+
+    <div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">Recommended for your favourite genre, <strong><?php echo $currentUser->favGenre; ?></strong></div>
+        <div class="panel-body">
+        
+        <?php 
+        foreach ($recommendedBooks as $book) {
+
+            ?>
+            
+            <div class="col-md-4">
+                <?php echo "<img class='book-image' src='$book->image'/>"; ?>
+                <p></p>
+            </div>
+
+            <?php
+
+        }
+        ?>
+
+        </div>
+    </div>
+    </div>
+    <?php } ?>
 </body>
