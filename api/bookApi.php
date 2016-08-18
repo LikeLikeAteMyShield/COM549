@@ -63,4 +63,17 @@ function getAllGenres() {
     return array_unique($results);
 }
 
+function filterByGenre($genre) {
+
+    $results = [];
+
+    foreach ($GLOBALS['bookxml'] as $book) {
+        if (strcmp($book->genre, $genre) == 0) {
+            array_push($results, $book);
+        }
+    }
+
+    return $results;
+}
+
 ?>

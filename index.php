@@ -1,97 +1,52 @@
 <?php
-    include("components/head.php"); ?>
+    include("components/head.php");
+    include("api/bookApi.php");
 
-    <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <title>Image Scroller</title>
+    $books = getAllBooks();
+?>
 
-    <style type="text/css">
-    #scroller {
-        position: relative;
-    }
-    #scroller .innerScrollArea {
-        overflow: hidden;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
-    #scroller ul {
-        padding: 0;
-        margin: 0;
-        position: relative;
-    }
-    #scroller li {
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-        position: absolute;
-    }
-</style>
-
-</head>
-<body>
     <div id="scroller" style="height: 200px; margin: 0 auto;">
         <div class="innerScrollArea">
             <ul>
-                <!-- HARD CODED PHOTOS -->
-                <li><img src="images/15thaffair.jpg" height="200" /></li>
-                <li><img src="images/afteryou.jpg" height="200" /></li>
-                <li><img src="images/colddarkground.jpg" height="200" /></li>
-                <li><img src="images/gosetawatchman.jpg" height="200" /></li>
-                <li><img src="images/localgirlmissing.jpg" height="200" /></li>
-                <li><img src="images/marblecollector.jpg" height="200" /></li>
+                <?php 
+                foreach ($books as $book) {
+                    $id = $book['id'];
+                    echo "<li><a href='book.php?id=$id'><img src='$book->image' height='200' /></a></li>";
+                }
+                ?>
             </ul>
         </div>
     </div>
+    <br>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            var scroller = $('#scroller div.innerScrollArea');
-            var scrollerContent = scroller.children('ul');
-            scrollerContent.children().clone().appendTo(scrollerContent);
-            var curX = 0;
-            scrollerContent.children().each(function(){
-                var $this = $(this);
-                $this.css('left', curX);
-                curX += $this.outerWidth(true);
-            });
-            var fullW = curX / 2;
-            var viewportW = scroller.width();
+    <?php 
+    if (isset($_SESSION['name'])) {
+        $currentUser = getUser($_SESSION['name']);
+        $recommendedBooks = filterByGenre($currentUser->favGenre);
+    ?>
 
-            // Scrolling speed management
-            var controller = {curSpeed:0, fullSpeed:1};
-            var $controller = $(controller);
-            var tweenToNewSpeed = function(newSpeed, duration)
-            {
-                if (duration === undefined)
-                    duration = 600;
-                $controller.stop(true).animate({curSpeed:newSpeed}, duration);
-            };
+    <div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">Recommended for your favourite genre, <strong><?php echo $currentUser->favGenre; ?></strong></div>
+        <div class="panel-body">
+        
+        <?php 
+        foreach ($recommendedBooks as $book) {
 
-            // Pause on hover
-            scroller.hover(function(){
-                tweenToNewSpeed(0);
-            }, function(){
-                tweenToNewSpeed(controller.fullSpeed);
-            });
+            ?>
+            
+            <div class="col-md-4">
+                <?php echo "<img class='book-image' src='$book->image'/>"; ?>
+                <p></p>
+            </div>
 
-            // Scrolling management; start the automatical scrolling
-            var doScroll = function()
-            {
-                var curX = scroller.scrollLeft();
-                var newX = curX + controller.curSpeed;
-                if (newX > fullW*2 - viewportW)
-                    newX -= fullW;
-                scroller.scrollLeft(newX);
-            };
-            setInterval(doScroll, 20);
-            tweenToNewSpeed(controller.fullSpeed);
-        });
-    </script>
+            <?php
 
+        }
+        ?>
+
+        </div>
+    </div>
+    </div>
+    <?php } ?>
 </body>
-</html>
