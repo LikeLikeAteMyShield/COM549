@@ -50,40 +50,38 @@
 ?>
 
 <html>
-<head>
-<title>Add Book</title>
-<!--<link rel="stylesheet" type="text/css" href="style.css" />-->
-</head>
+	<head>
+		<title>Add Book</title>
+	</head>
 
-<body>
-	<div class="jumbotron">
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Add book</h1>
+			</div>
+		</div>
+		
+
+		<br />
 		<div class="container">
-			<h1>Add book</h1>
-	
+	    	<div class="col-md-6 col-md-offset-3 login-form panel panel-default">
+				<form action="addBook.php" method="post">
+					<div class="form-group">
+						<br />
+						<input type="text" name="author" class="form-control" placeholder="Author"> <br />
+						<input type="text" name="title" class="form-control" placeholder="Title"> <br />
+						<input type="text" name="genre" class="form-control" placeholder="Genre"> <br />
+						<input type="number" name="price" class="form-control" placeholder="Price"> <br />
+						<input type="number" name="publishyear" class="form-control" placeholder="Year"> <br />
+						<input type="number" name="pages" class="form-control" placeholder="Pages"> <br />
+						<input type="text" name="image" class="form-control" placeholder="Image"> <br />
+						<button type="submit" class="btn btn-success">Submit</button>
+					</div>
+				</form>
+			</div>
 		</div>
-</div>
-	
 
-	<br />
-<div class="container">
-    <div class="col-md-6 col-md-offset-3 login-form panel panel-default">
-	<form action="addBook.php" method="post">
-		<div class="form-group">
-			<br />
-			<input type="text" name="author" class="form-control" placeholder="Author"> <br />
-			<input type="text" name="title" class="form-control" placeholder="Title"> <br />
-			<input type="text" name="genre" class="form-control" placeholder="Genre"> <br />
-			<input type="number" name="price" class="form-control" placeholder="Price"> <br />
-			<input type="number" name="publishyear" class="form-control" placeholder="Year"> <br />
-			<input type="number" name="pages" class="form-control" placeholder="Pages"> <br />
-			<input type="text" name="image" class="form-control" placeholder="Image"> <br />
-			<button type="submit" class="btn btn-success">Submit</button>
-		</div>
-	</form>
-</div>
-</div>
-
-</body>
+	</body>
 
 </html>
 
