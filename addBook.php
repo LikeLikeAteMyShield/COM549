@@ -52,7 +52,7 @@
 
 <html>
 	<head>
-		<title>Add Book</title>
+		
 	</head>
 
 	<body>
