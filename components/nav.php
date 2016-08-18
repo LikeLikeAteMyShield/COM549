@@ -8,6 +8,11 @@
             <?php if (isset($_SESSION['name']) && strcmp($_SESSION['name'], 'admin') == 0) { ?>
             <li><a href="addBook.php">Add Book</a></li>
             <?php }?>
+            <?php if (isset($_SESSION['name']) && basename($_SERVER['PHP_SELF']) != 'logout.php') { ?>
+            <li><a href="logout.php">Log Out</a></li>
+            <?php } else { ?>
+            <li><a href="login.php">Log In</a></li>
+            <?php }?>
         </ul>
     </div>
 </nav>
