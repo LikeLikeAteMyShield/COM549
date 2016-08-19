@@ -103,10 +103,15 @@
 	        	<h3>Reviews</h3>
 	        	<?php
 	        		$reviewlist = getBookReviews($book['id']);
-	        		foreach ($reviewlist as $review) {
-	        			$revname = $review['name'];
-	        			echo "<strong>$revname</strong> $review<br />";
-	        		}
+		        		if ($reviewlist != NULL) {
+		        			foreach ($reviewlist as $review) {
+		        			$revname = $review['name'];
+		        			echo "<strong>$revname</strong> $review<br />";
+		        			}
+		        		} else {
+		        			echo "There are currently no reviews for this book.";
+		        		}
+	        		
 	        	?>
             </div>
 
