@@ -9,11 +9,6 @@
         echo "<script>window.alert('$book->title was added to your library.');</script>";
         addBookToLibrary($book);
     }
-
-    if (isset($_POST['remove'])) {
-        echo "<script>window.alert('$book->title was removed from your library.');</script>";
-        removeBookFromLibrary($book);
-    }
 	
 	if ($book != null)
 	{
@@ -44,16 +39,14 @@
 			<?php
             } else {
             ?>
-                <form method="post">
-                    <button type="submit" name="remove" value="remove" class="btn btn-danger">Remove from my books</button>
-                </form>
+                <span class="label label-success">In your library</span>
 			<?php 
             }} 
             ?>
 		</div>
 		<div class="col-sm-3" style="padding-left: 5px; padding: 5px">
 
-			<table class="table">
+			<table class="table table-bordered">
 			<h4>
 			<tr>
 				<th>Author: </th>

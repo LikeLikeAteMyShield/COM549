@@ -98,20 +98,4 @@ function addBookToLibrary($book) {
     $GLOBALS['userxml']->asXml('xml/users.xml');
 }
 
-function removeBookFromLibrary($book) {
-
-    $user = getUser($_SESSION['name']);
-    $userBooks = $user->books;
-    $bookToRemove = null;
-
-    foreach($userBooks->book as $userBook) {
-        if (strcmp($userBook, $book['id']) == 0) {
-            $bookToRemove = $book;
-        }
-    }
-
-    $userBook->removeChild($bookToRemove);
-    $GLOBALS['userxml']->asXml('xml/users.xml');
-}
-
 ?>
