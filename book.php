@@ -14,6 +14,11 @@
         echo "<script>window.alert('$book->title was removed from your library.');</script>";
         removeBookFromLibrary($book);
     }
+
+    if (isset($_POST['review'])) {
+        $review = $_POST['review'];
+        
+    }
 	
 	if ($book != null)
 	{
@@ -106,7 +111,18 @@
 	            <?php }} ?>
 	        </div>
 
-	        
+	        <div class="col-sm-4">
+	        	<h3>Reviews</h3>
+	        	<p>blahblahblah</p>
+            </div>
+
+	        <div class="col-sm-4">
+	        	<h3>Leave a Review</h3>
+	        	<form method="post">
+                	<textarea cols="50" rows="10" name="review"></textarea> <br /><br />
+                	<button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
 			
 	</div>	
 	
