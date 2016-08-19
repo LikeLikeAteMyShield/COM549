@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="container">
-    <div class="row">
+    <div class="panel-body">
 
 <?php 
     if (count($books) == 0) {
@@ -26,7 +26,8 @@
 <?php
     foreach($books as $book) { ?>
         <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-            <?php echo "<img class='book-image' src='$book->image'/>"; ?>
+            <?php $id = $book['id']; ?>
+            <?php echo "<a href='book.php?id=$id'><img class='book-image' src='$book->image'/></a>"; ?>
             <p></p>
         </div>
     <?php
