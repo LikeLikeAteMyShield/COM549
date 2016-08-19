@@ -28,9 +28,7 @@
             <button type="submit" class="btn btn-primary">Log In</button>
         </form>
     </div>
-    <div class="col-md-6 col-md-offset-3 regbutton">
-        <p />
+    <div class="col-md-6 col-md-offset-3 regbutton"> 
         <a href="index.php"><button type="button" class="btn btn-primary">Click Here To Register</button></a>
-        <p />
     </div>
 </div>
