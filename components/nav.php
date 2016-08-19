@@ -1,10 +1,13 @@
-<?php session_start(); ?>
+<?php 
+session_start(); 
+include('api/bookApi.php');
+?>
     <nav class="navbar navbar-default">
     <div class="container-fluid">
         <ul class="nav navbar-nav">
             <li><a class="navbar-brand" href="index.php">Book<strong>markers</strong></a></li>
             <li><a href="books.php">All Books</a></li>
-            <li><a href="myBooks.php">My Books</a></li>
+            <li><a href="myBooks.php">My Books <?php if (isset($_SESSION['name'])) { ?> <span class="badge"><?php echo getNumberOfBooksForUser($_SESSION['name']); ?></span><?php } ?></a></li>
             <?php if (isset($_SESSION['name']) && strcmp($_SESSION['name'], 'admin') == 0) { ?>
             <li><a href="addBook.php">Add Book</a></li>
             <?php }?>

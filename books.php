@@ -1,6 +1,5 @@
 <?php 
     include("components/head.php");
-    include("api/bookApi.php");
 
     if (isset($_GET['genre'])) {
         $books = filterByGenre($_GET['genre']);

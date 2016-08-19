@@ -1,6 +1,5 @@
 <?php
     include("components/head.php");
-    include("api/bookApi.php");
 
     $books = getAllBooks();
 

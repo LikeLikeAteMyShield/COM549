@@ -1,7 +1,6 @@
 <?php
 
 	include ("components/head.php");
-	include ("api/bookApi.php");
 	
 	$book = getBookById($_GET["id"]); 
 

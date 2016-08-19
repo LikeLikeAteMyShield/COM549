@@ -119,4 +119,15 @@ function addReviewForBook($id, $review, $name) {
     $GLOBALS['bookxml']->asXML('xml/books.xml');
 }
 
+function getNumberOfBooksForUser() {
+
+    $result = 0;
+    $user = getUser($_SESSION['name']);
+
+    $books = getBooksForUser($user->name);
+    $result = count($books);
+
+    return $result;
+}
+
 ?>
