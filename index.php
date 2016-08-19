@@ -73,7 +73,8 @@
             ?>
             
             <div class="col-md-4">
-                <?php echo "<img class='book-image' src='$book->image'/>"; ?>
+                <?php $id = $book['id']; ?>
+                <?php echo "<a href='book.php?id=$id'><img class='book-image' src='$book->image'/></a>"; ?>
                 <p></p>
             </div>
 

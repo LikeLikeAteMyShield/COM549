@@ -27,20 +27,20 @@
         <email>adam@talktalk.net</email>
         <password>bWF0cmljZXM=</password>
         <books></books>
-        <favGenre></favGenre>
+        <favGenre>Historical Fiction</favGenre>
     </user>
     <user id="usr04">
         <name>Andrew</name>
         <email>andrew@aol.com</email>
         <password>bWFuZHJha2U=</password>
         <books></books>
-        <favGenre></favGenre>
+        <favGenre>Thriller</favGenre>
     </user>
     <user id="usr05">
         <name>admin</name>
         <email>admin@bookmarkers.com</email>
         <password>MVBhc3N3b3JkMg==</password>
         <books></books>
-        <favGenre></favGenre>
+        <favGenre>Crime</favGenre>
     </user>
 </users>
