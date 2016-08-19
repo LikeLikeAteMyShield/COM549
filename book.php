@@ -75,14 +75,18 @@
 				<p></p> 
 				</div> 
 			
-            <?php }} ?>
-			
-	
+            <?php }} ?>		
+		</div>
+		</div>	
 
 			
-		</div>
-			
-		</div>	
+		<?php
+		include ("components/foot.php");
+		?>
+		
+	
+
+
 	
 	
 <?php
