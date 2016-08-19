@@ -26,10 +26,11 @@
 		
 ?>		
 		
-		<div class ="container">
-			<h1> <?php echo $book->title,"<br><br>" ?></h1>
+		<div class="jumbotron">
+		<div class="container">
+			<h2> <?php echo $book->title ?></h2>
 		</div>	
-	
+		</div>
 		<div class="container">
 			<div class="row">
 			<div class="col-sm-3">
