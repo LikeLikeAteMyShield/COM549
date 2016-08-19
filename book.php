@@ -12,7 +12,7 @@
 
     if (isset($_POST['review'])) {
         $review = $_POST['review'];
-        
+
     }
 	
 	if ($book != null)
@@ -106,12 +106,18 @@
 	        <div class="col-sm-4">
 	        	<h3>Reviews</h3>
 	        	<p>blahblahblah</p>
+	        	<?php
+	        		$reviewlist = getBookReviews($book['id']);
+	        		foreach ($reviewlist as $review) {
+	        			echo "$review";
+	        		}
+	        	?>
             </div>
 
 	        <div class="col-sm-4">
 	        	<h3>Leave a Review</h3>
 	        	<form method="post">
-                	<textarea cols="50" rows="10" name="review"></textarea> <br /><br />
+                	<textarea cols="50" rows="10" name="review" placeholder="Please leave a review"></textarea> <br /><br />
                 	<button type="submit" class="btn btn-success">Submit</button>
                 </form>
             </div>

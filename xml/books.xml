@@ -288,16 +288,8 @@
       <pages>496</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7521791/xlarge/9780007521791_1.jpg</image>
       <reviews>
-         <review>
-            <name>Andrew</name>
-            <comment>Awful book</comment>
-            <date>19/08/16</date>
-         </review>
-         <review>
-            <name>Jamie</name>
-            <comment>Amazing book, I feel enlightened</comment>
-            <date>19/08/16</date>
-         </review>
+         <review name="Andrew">Awful book</review>
+         <review name="Jamie">Amazing book, I feel enlightened</review>
       </reviews>
    </book>
    <book id="bk133">
@@ -309,16 +301,6 @@
       <pages>576</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7532780/xlarge/9780007532780_1.jpg</image>
       <reviews>
-         <review>
-            <name>Andrew</name>
-            <comment>Awful book</comment>
-            <date>19/08/16</date>
-         </review>
-         <review>
-            <name>Jamie</name>
-            <comment>Amazing book, I feel enlightened</comment>
-            <date>19/08/16</date>
-         </review>
       </reviews>
    </book>
 </books>

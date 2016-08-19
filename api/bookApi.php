@@ -48,6 +48,17 @@ function getBookById($id) {
     return $result;
 }
 
+function getBookReviews($id) {
+    $results = [];
+    $book = getBookById($id);
+    foreach($book->reviews->review as $review) {
+
+        array_push($results, $review);
+    }
+
+    return array_unique($results);
+}
+
 function getAllGenres() {
 
     $results = [];
