@@ -9,7 +9,6 @@
     <div class="jumbotron">
         <div class="container">
             <h1>All Books</h1>
-            <hr>
         </div>
     </div>
     <div class="container">
