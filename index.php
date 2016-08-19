@@ -64,7 +64,7 @@
 
     <div class="container">
     <div class="panel panel-default">
-        <div class="panel-heading">Recommended for your favourite genre, <strong><?php echo $currentUser->favGenre; ?></strong></div>
+        <div class="panel-heading">Recommended for your favourite genre - <strong><?php echo $currentUser->favGenre; ?></strong></div>
         <div class="panel-body">
         
         <?php 
