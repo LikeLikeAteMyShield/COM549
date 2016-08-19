@@ -7,7 +7,7 @@
     if(isset($_POST['email'])){
         $email = $_POST['email'];
         $name = $_POST['name'];
-        $password = $_POST['password'];
+        $password = base64_encode($_POST['password']);
         $favgenre = $_POST['favgenre'];
 
 
@@ -93,10 +93,17 @@
                     <div class="form-group">
                         <h1>Register</h1>
                         <br />
-                        <input type="text" name="email" class="form-control" placeholder="Email"> <br />
-                        <input type="text" name="name" class="form-control" placeholder="Name"> <br />
-                        <input type="text" name="password" class="form-control" placeholder="Password"> <br />
-                        <input type="text" name="favgenre" class="form-control" placeholder="Favourite Genre"> <br />
+                        <input type="text" name="email" class="form-control" placeholder="Email" /> <br />
+                        <input type="text" name="name" class="form-control" placeholder="Name" /> <br />
+                        <input type="text" name="password" class="form-control" placeholder="Password" /> <br />
+                        <select name="favgenre" class="form-control" placeholder="Favourite Genre">
+                            <?php 
+                                $genrelist = getAllGenres();
+                                foreach ($genrelist as $genre) {
+                                    echo "<option value=\"$genre\">$genre</option>";
+                                }
+                            ?>
+                        </select> <br />
                         <button type="submit" class="btn btn-success">Submit</button>
                     </div>
                 </form>
