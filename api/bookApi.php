@@ -115,7 +115,6 @@ function addReviewForBook($id, $review, $name) {
 
     $rev = $book->reviews->addChild('review', $review);
     $rev->addAttribute('name', $name);
-    var_dump($book);
     $GLOBALS['bookxml']->asXML('xml/books.xml');
 }
 
