@@ -4,6 +4,16 @@
 	include ("api/bookApi.php");
 	
 	$book = getBookById($_GET["id"]); 
+
+    if (isset($_POST['add'])) {
+        echo "<script>window.alert('$book->title was added to your library.');</script>";
+        addBookToLibrary($book);
+    }
+
+    if (isset($_POST['remove'])) {
+        echo "<script>window.alert('$book->title was removed from your library.');</script>";
+        removeBookFromLibrary($book);
+    }
 	
 	if ($book != null)
 	{
@@ -18,10 +28,28 @@
 		<div class="col-sm-3">
 			
 			<?php
-					echo  "<img class='book-image' src='$book->image'/>";
+					echo    "<img class='book-image' src='$book->image'/>";
+                    echo    "<p></p>";
 			?>
-			
-			
+
+            <?php
+            if (isset($_SESSION['name'])) {
+            ?>
+                <?php
+                if (checkIfBookIsInUserLibrary($book) == false) {
+                ?>
+                <form method="post">
+                    <button type="submit" name="add" value="add" class="btn btn-success">Add to my books</button>
+                </form>
+			<?php
+            } else {
+            ?>
+                <form method="post">
+                    <button type="submit" name="remove" value="remove" class="btn btn-danger">Remove from my books</button>
+                </form>
+			<?php 
+            }} 
+            ?>
 		</div>
 		<div class="col-sm-3" style="padding-left: 5px; padding: 5px">
 
