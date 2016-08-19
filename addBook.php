@@ -73,6 +73,11 @@
 	</div>
 </div>
 
+<?php
+
+include("components/foot.php");
+
+?>
 
 
 

@@ -13,3 +13,9 @@
     <p>Thank you for visiting the site.</p>
     <a class="btn btn-primary" href="login.php">Log In</a>
 </div>
+
+<?php
+
+include("components/foot.php");
+
+?>
