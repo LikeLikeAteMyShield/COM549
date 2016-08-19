@@ -96,20 +96,19 @@
 	                    		?> 
 								<p></p> 
 							</div> 
-				
-	            		<?php }} ?>
-	    </div>
-		</div>
-	    <div class="col-sm-4">
-	        <h3>Reviews</h3>
-	        <p>blahblahblah</p>
-	        <?php
-	        $reviewlist = getBookReviews($book['id']);
-	        foreach ($reviewlist as $review) {
-	        	echo "$review";
-	        }
-	        ?>
-        </div>
+	            <?php }} ?>
+	        </div>
+			</div>
+	        <div class="col-sm-4">
+	        	<h3>Reviews</h3>
+	        	<?php
+	        		$reviewlist = getBookReviews($book['id']);
+	        		foreach ($reviewlist as $review) {
+	        			$revname = $review['name'];
+	        			echo "<strong>$revname</strong> $review<br />";
+	        		}
+	        	?>
+            </div>
 
 	    <div class="col-sm-4">
 	        <h3>Leave a Review</h3>

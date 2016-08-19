@@ -8,15 +8,21 @@
       <publish_year>2015</publish_year>
       <pages>432</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/55/2779777/xlarge/9780552779777_1.jpg</image>
+      <reviews>
+         <review name="Adam">Great read, would recommend to friends</review>
+      </reviews>
    </book>
    <book id="bk102">
-      <author>After You</author>
-      <title>Jojo Moyes</title>
+      <author>Jojo Moyes</author>
+      <title>After You</title>
       <genre>Romance</genre>
       <price>7.99</price>
       <publish_year>2015</publish_year>
       <pages>416</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/5909075/xlarge/9781405909075_1.jpg</image>
+      <reviews>
+         <review name="Alex">Love all Jojo Moyes books.</review>
+      </reviews>
    </book>
    <book id="bk103">
       <author>James Patterson</author>
@@ -26,6 +32,8 @@
       <publish_year>2016</publish_year>
       <pages>480</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9594581/xlarge/9780099594581_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk104">
       <author>Philippa Gregory</author>
@@ -35,6 +43,8 @@
       <publish_year>2016</publish_year>
       <pages>560</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/47/1133015/xlarge/9781471133015_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk105">
       <author>Stuart MacBride</author>
@@ -44,6 +54,8 @@
       <publish_year>2016</publish_year>
       <pages>528</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7494675/xlarge/9780007494675_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk106">
       <author>Jojo Moyes</author>
@@ -53,6 +65,8 @@
       <publish_year>2012</publish_year>
       <pages>512</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/71/8157838/xlarge/9780718157838_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk107">
       <author>James Patterson</author>
@@ -62,6 +76,8 @@
       <publish_year>2015</publish_year>
       <pages>560</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9594888/xlarge/9780099594888_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk108">
       <author>Claire Douglas</author>
@@ -71,6 +87,8 @@
       <publish_year>2016</publish_year>
       <pages>400</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/5926393/xlarge/9781405926393_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk109">
       <author>Kathy Reichs</author>
@@ -80,6 +98,8 @@
       <publish_year>2015</publish_year>
       <pages>432</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9558095/xlarge/9780099558095_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk110">
       <author>Sebastian Faulks</author>
@@ -89,6 +109,8 @@
       <publish_year>2016</publish_year>
       <pages>336</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9549246/xlarge/9780099549246_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk111">
       <author>Harper Lee</author>
@@ -98,6 +120,8 @@
       <publish_year>2015</publish_year>
       <pages>288</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/78/4752460/xlarge/9781784752460_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk112">
       <author>Cecelia Ahern</author>
@@ -107,6 +131,8 @@
       <publish_year>2015</publish_year>
       <pages>384</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7501847/xlarge/9780007501847_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk113">
       <author>Tess Gerritsen</author>
@@ -116,6 +142,8 @@
       <publish_year>2016</publish_year>
       <pages>320</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/85/7502940/xlarge/9780857502940_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk114">
       <author>Susan Lewis</author>
@@ -125,6 +153,8 @@
       <publish_year>2016</publish_year>
       <pages>432</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9586548/xlarge/9780099586548_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk115">
       <author>S. J. Watson</author>
@@ -134,6 +164,8 @@
       <publish_year>2016</publish_year>
       <pages>464</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/78/4161644/xlarge/9781784161644_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk116">
       <author>Martina Cole</author>
@@ -143,6 +175,8 @@
       <publish_year>2016</publish_year>
       <pages>370</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/47/2201010/xlarge/9781472201010_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk117">
       <author>David Baldacci</author>
@@ -152,6 +186,8 @@
       <publish_year>2016</publish_year>
       <pages>428</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/44/7277569/xlarge/9781447277569_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk118">
       <author>Tim Weaver</author>
@@ -161,6 +197,8 @@
       <publish_year>2016</publish_year>
       <pages>428</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/5917827/xlarge/9781405917827_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk119">
       <author>Patricia Cornwell</author>
@@ -170,6 +208,8 @@
       <publish_year>2016</publish_year>
       <pages>480</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7552498/xlarge/9780007552498_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk120">
       <author>John Grisham</author>
@@ -179,6 +219,8 @@
       <publish_year>2016</publish_year>
       <pages>384</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/47/3622883/xlarge/9781473622883_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk121">
       <author>Harlan Coben</author>
@@ -188,6 +230,8 @@
       <publish_year>2016</publish_year>
       <pages>416</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/78/4751111/xlarge/9781784751111_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk122">
       <author>Peter May</author>
@@ -197,6 +241,8 @@
       <publish_year>2016</publish_year>
       <pages>400</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/78/4293130/xlarge/9781784293130_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk123">
       <author>Dawn French</author>
@@ -206,6 +252,8 @@
       <publish_year>2016</publish_year>
       <pages>384</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/5921558/xlarge/9781405921558_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk124">
       <author>Nicholas Searle</author>
@@ -215,6 +263,8 @@
       <publish_year>2016</publish_year>
       <pages>368</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/24/1973295/xlarge/9780241973295_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk125">
       <author>Elizabeth Strout</author>
@@ -224,6 +274,8 @@
       <publish_year>2011</publish_year>
       <pages>288</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/84/9831550/xlarge/9781849831550_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk126">
       <author>Danielle Steel</author>
@@ -233,6 +285,8 @@
       <publish_year>2016</publish_year>
       <pages>400</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/55/2166232/xlarge/9780552166232_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk127">
       <author>Lyn Andrews</author>
@@ -242,6 +296,8 @@
       <publish_year>2016</publish_year>
       <pages>400</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/75/5399789/xlarge/9780755399789_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk128">
       <author>Ian Rankin</author>
@@ -251,6 +307,8 @@
       <publish_year>2016</publish_year>
       <pages>416</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/9159384/xlarge/9781409159384_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk129">
       <author>Dinah Jefferies</author>
@@ -260,6 +318,8 @@
       <publish_year>2016</publish_year>
       <pages>400</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/24/1248621/xlarge/9780241248621_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk130">
       <author>Debbie Macomber</author>
@@ -269,6 +329,8 @@
       <publish_year>2016</publish_year>
       <pages>384</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9595069/xlarge/9780099595069_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk131">
       <author>Lee Child</author>
@@ -278,6 +340,8 @@
       <publish_year>2016</publish_year>
       <pages>512</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/85/7502681/xlarge/9780857502681_1.jpg</image>
+      <reviews>
+      </reviews>
    </book>
    <book id="bk132">
       <author>Kimberley Chambers</author>
@@ -289,7 +353,8 @@
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7521791/xlarge/9780007521791_1.jpg</image>
       <reviews>
          <review name="Andrew">Awful book</review>
-         <review name="Jamie">Amazing book, I feel enlightened</review>
+         <review name="Jamie">Amazing book, I feel enlightened
+         </review>
       </reviews>
    </book>
    <book id="bk133">
