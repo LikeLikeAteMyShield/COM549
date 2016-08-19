@@ -130,8 +130,7 @@
 		?>
 <?php
 	} else { 
-?>
 
-	<a href="errorPage.php">
+	header("location:error.php");
 	
-<?php } ?>
+} ?>
