@@ -70,7 +70,7 @@
 					</tr>
 					<tr>
 						<th>Price: </th>
-						<th><?php echo $book->price?></th>
+						<th><?php echo "£" . $book->price?></th>
 					</tr>
 					<tr>
 						<th>Publisher Year: </th>
