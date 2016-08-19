@@ -26,13 +26,14 @@
 					<a href="myBooks.php">My Books</a>
 					· ·
 					<?php if (isset($_SESSION['name']) && basename($_SERVER['PHP_SELF']) != 'logout.php') { ?>
-            <li><a href="logout.php">Log Out</a></li>
+            <br />
+            · · <a href="logout.php">Log Out</a> · ·
             <?php } else { ?>
-            <li><a href="login.php">Log In</a></li>
+            · · <a href="login.php">Log In</a> · ·
             <?php }?>
 				</p>
 				<br><br>
-				<p>Bookmarker &copy; 2015</p>
+				<p>Bookmarker &copy; 2016</p>
 			</div>
 
 		</footer>
