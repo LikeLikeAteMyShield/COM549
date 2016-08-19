@@ -105,11 +105,11 @@
 
 	        <div class="col-sm-4">
 	        	<h3>Reviews</h3>
-	        	<p>blahblahblah</p>
 	        	<?php
 	        		$reviewlist = getBookReviews($book['id']);
 	        		foreach ($reviewlist as $review) {
-	        			echo "$review";
+	        			$revname = $review['name'];
+	        			echo "<strong>$revname</strong> $review<br />";
 	        		}
 	        	?>
             </div>
