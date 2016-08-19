@@ -76,4 +76,42 @@ function filterByGenre($genre) {
     return $results;
 }
 
+function checkIfBookIsInUserLibrary($book) {
+
+    $result = false;
+    $user = getUser($_SESSION['name']);
+    foreach ($user->books->book as $userBook) {
+        if (strcmp($userBook, $book['id']) == 0){
+            $result = true;
+        }
+    }
+
+    return $result;
+}
+
+function addBookToLibrary($book) {
+
+    $user = getUser($_SESSION['name']);
+    $userBooks = $user->books;
+
+    $userBooks->addChild('book', $book['id']);
+    $GLOBALS['userxml']->asXml('xml/users.xml');
+}
+
+function removeBookFromLibrary($book) {
+
+    $user = getUser($_SESSION['name']);
+    $userBooks = $user->books;
+    $bookToRemove = null;
+
+    foreach($userBooks->book as $userBook) {
+        if (strcmp($userBook, $book['id']) == 0) {
+            $bookToRemove = $book;
+        }
+    }
+
+    $userBook->removeChild($bookToRemove);
+    $GLOBALS['userxml']->asXml('xml/users.xml');
+}
+
 ?>

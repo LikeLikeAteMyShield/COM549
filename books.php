@@ -9,7 +9,6 @@
     <div class="jumbotron">
         <div class="container">
             <h1>All Books</h1>
-            <hr>
         </div>
     </div>
     <div class="container">
@@ -24,7 +23,8 @@
 <?php
     foreach($books as $book) { ?>
         <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-            <?php echo "<img class='book-image' src='$book->image'/>"; ?>
+            <?php $id = $book['id']; ?>
+            <?php echo "<a href='book.php?id=$id'><img class='book-image' src='$book->image'/></a>"; ?>
             <p></p>
         </div>
     <?php

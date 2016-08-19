@@ -64,7 +64,7 @@
 
     <div class="container">
     <div class="panel panel-default">
-        <div class="panel-heading">Recommended for your favourite genre, <strong><?php echo $currentUser->favGenre; ?></strong></div>
+        <div class="panel-heading">Recommended for your favourite genre - <strong><?php echo $currentUser->favGenre; ?></strong></div>
         <div class="panel-body">
         
         <?php 
@@ -73,7 +73,8 @@
             ?>
             
             <div class="col-md-4">
-                <?php echo "<img class='book-image' src='$book->image'/>"; ?>
+                <?php $id = $book['id']; ?>
+                <?php echo "<a href='book.php?id=$id'><img class='book-image' src='$book->image'/></a>"; ?>
                 <p></p>
             </div>
 
@@ -92,10 +93,11 @@
                     <div class="form-group">
                         <h1>Register</h1>
                         <br />
-                        <input type="text" name="email" class="form-control" placeholder="Email" /> <br />
+                        <input type="email" name="email" class="form-control" placeholder="Email" /> <br />
                         <input type="text" name="name" class="form-control" placeholder="Name" /> <br />
                         <input type="text" name="password" class="form-control" placeholder="Password" /> <br />
                         <select name="favgenre" class="form-control" placeholder="Favourite Genre">
+                            <option disabled selected>Favourite Genre</option>
                             <?php 
                                 $genrelist = getAllGenres();
                                 foreach ($genrelist as $genre) {
