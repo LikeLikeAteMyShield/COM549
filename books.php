@@ -2,9 +2,11 @@
     include("components/head.php");
     include("api/bookApi.php");
 
-    
-
-    $books = getAllBooks();
+    if (isset($_GET['genre'])) {
+        $books = filterByGenre($_GET['genre']);
+    } else {
+        $books = getAllBooks();
+    }
 ?>
     <div class="jumbotron">
         <div class="container">
@@ -12,8 +14,26 @@
         </div>
     </div>
     <div class="container">
+    <form method="get" class="form-inline">
+    <div class="form-group">
+    <label for="select">Filter by genre</label>
+    <select name="genre" value="genre" class="form-control">
+        <?php
+        $genres = getAllGenres();
+        foreach($genres as $genre) {
+            echo "<option>$genre</option>";
+        }
+        ?>
+    </select>
+    <button type="submit" class="btn btn-primary">Filter</button>
+    <p></p>
+    </div>
+    </form>
+    <?php if (isset($_GET['genre'])) { ?>
+    <span class="label label-default"><?php echo $_GET['genre']; ?> Books</span>
+    <?php } ?>
     <div class="panel-body">
-
+    
 <?php 
     if (count($books) == 0) {
 ?>
