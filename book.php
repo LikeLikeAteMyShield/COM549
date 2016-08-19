@@ -14,14 +14,9 @@
         $review = $_POST['review'];
 
         if ($review != NULL) {
-        	$xml = simplexml_load_file('xml/books.xml');
 
         	$name = $_SESSION['name'];
-
-        	$rev = $book->reviews->addChild('review', $review);
-        	$rev->addAttribute('name', $name);
-
-        	$xml->asXML('xml/books.xml');
+			addReviewForBook($book['id'], $review, $name);
         }
     }
 	

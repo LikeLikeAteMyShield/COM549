@@ -109,4 +109,14 @@ function addBookToLibrary($book) {
     $GLOBALS['userxml']->asXml('xml/users.xml');
 }
 
+function addReviewForBook($id, $review, $name) {
+
+    $book = getBookById($id);
+
+    $rev = $book->reviews->addChild('review', $review);
+    $rev->addAttribute('name', $name);
+    var_dump($book);
+    $GLOBALS['bookxml']->asXML('xml/books.xml');
+}
+
 ?>
