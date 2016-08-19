@@ -20,7 +20,11 @@
 <?php 
     if (count($books) == 0) {
 ?>
-    <p>You have no books.</p>
+    <div class="container">
+    <div class="col-md-6 col-md-offset-3 regbutton"> 
+        <a href="books.php"><button type="button" class="btn btn-primary">Click Here To Add Books</button></a>
+    </div>
+</div>
 <?php } ?>
 
 <?php
