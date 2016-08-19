@@ -92,10 +92,11 @@
                     <div class="form-group">
                         <h1>Register</h1>
                         <br />
-                        <input type="text" name="email" class="form-control" placeholder="Email" /> <br />
+                        <input type="email" name="email" class="form-control" placeholder="Email" /> <br />
                         <input type="text" name="name" class="form-control" placeholder="Name" /> <br />
                         <input type="text" name="password" class="form-control" placeholder="Password" /> <br />
                         <select name="favgenre" class="form-control" placeholder="Favourite Genre">
+                            <option disabled selected>Favourite Genre</option>
                             <?php 
                                 $genrelist = getAllGenres();
                                 foreach ($genrelist as $genre) {
