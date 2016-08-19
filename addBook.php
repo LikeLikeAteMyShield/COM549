@@ -20,8 +20,6 @@
 			$publishyear != NULL &&
 			$pages != NULL &&
 			$image != NULL){
-
-
 	
 			$xml = simplexml_load_file('xml/books.xml'); //Open and parse the xml file
 
