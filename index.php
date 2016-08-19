@@ -7,7 +7,7 @@
     if(isset($_POST['email'])){
         $email = $_POST['email'];
         $name = $_POST['name'];
-        $password = $_POST['password'];
+        $password = base64_encode($_POST['password']);
         $favgenre = $_POST['favgenre'];
 
 
