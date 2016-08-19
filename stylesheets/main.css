@@ -63,3 +63,7 @@ body {
     list-style-type: none;
     position: absolute;
 }
+
+.regbutton {
+    text-align: center;
+}
