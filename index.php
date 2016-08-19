@@ -112,3 +112,9 @@
         </div>
     <?php } ?>
 </body>
+
+<?php
+
+include("components/foot.php");
+
+?>

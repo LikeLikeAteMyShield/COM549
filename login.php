@@ -32,3 +32,9 @@
         <a href="index.php"><button type="button" class="btn btn-primary">Click Here To Register</button></a>
     </div>
 </div>
+
+<?php
+
+include("components/foot.php");
+
+?>
