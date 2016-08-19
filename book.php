@@ -16,6 +16,7 @@
         if ($review != NULL) {
 
         	$name = $_SESSION['name'];
+        	
 			addReviewForBook($book['id'], $review, $name);
         }
     }
