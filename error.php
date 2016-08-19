@@ -14,11 +14,12 @@
     <div class="container">
     <div class="panel-body">
 	
-	<h2> error '400' <br><br>Book Not Found<br></h2>
+	<h2><br>Book Not Found<br></h2>
 	
     </div>
     </div>
-	
+	<br>
+    <br>
 	<div id="scroller" style="height: 200px; margin: 0 auto;">
         <div class="innerScrollArea">
             <ul>
