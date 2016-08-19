@@ -216,4 +216,109 @@
       <pages>368</pages>
       <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/24/1973295/xlarge/9780241973295_1.jpg</image>
    </book>
+   <book id="bk125">
+      <author>Elizabeth Strout</author>
+      <title>Olive Kitteridge</title>
+      <genre>Fiction</genre>
+      <price>5.59</price>
+      <publish_year>2011</publish_year>
+      <pages>288</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/84/9831550/xlarge/9781849831550_1.jpg</image>
+   </book>
+   <book id="bk126">
+      <author>Danielle Steel</author>
+      <title>Precious Gifts</title>
+      <genre>Fiction</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>400</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/55/2166232/xlarge/9780552166232_1.jpg</image>
+   </book>
+   <book id="bk127">
+      <author>Lyn Andrews</author>
+      <title>Heart and Home</title>
+      <genre>Historical Fiction</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>400</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/75/5399789/xlarge/9780755399789_1.jpg</image>
+   </book>
+   <book id="bk128">
+      <author>Ian Rankin</author>
+      <title>Even Dogs in the Wild</title>
+      <genre>Crime</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>416</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9781/40/9159384/xlarge/9781409159384_1.jpg</image>
+   </book>
+   <book id="bk129">
+      <author>Dinah Jefferies</author>
+      <title>The Silk Merchant's Daughter</title>
+      <genre>Historical Fiction</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>400</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/24/1248621/xlarge/9780241248621_1.jpg</image>
+   </book>
+   <book id="bk130">
+      <author>Debbie Macomber</author>
+      <title>Sweet Tomorrow</title>
+      <genre>Fiction</genre>
+      <price>4.79</price>
+      <publish_year>2016</publish_year>
+      <pages>384</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/09/9595069/xlarge/9780099595069_1.jpg</image>
+   </book>
+   <book id="bk131">
+      <author>Lee Child</author>
+      <title>Make Me</title>
+      <genre>Crime</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>512</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/85/7502681/xlarge/9780857502681_1.jpg</image>
+   </book>
+   <book id="bk132">
+      <author>Kimberley Chambers</author>
+      <title>Tainted Love</title>
+      <genre>Thriller</genre>
+      <price>5.59</price>
+      <publish_year>2016</publish_year>
+      <pages>496</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7521791/xlarge/9780007521791_1.jpg</image>
+      <reviews>
+         <review>
+            <name>Andrew</name>
+            <comment>Awful book</comment>
+            <date>19/08/16</date>
+         </review>
+         <review>
+            <name>Jamie</name>
+            <comment>Amazing book, I feel enlightened</comment>
+            <date>19/08/16</date>
+         </review>
+      </reviews>
+   </book>
+   <book id="bk133">
+      <author>Jonathan Franzen</author>
+      <title>Purity</title>
+      <genre>Fiction</genre>
+      <price>6.29</price>
+      <publish_year>2016</publish_year>
+      <pages>576</pages>
+      <image>https://btmedia.whsmith.co.uk/pws/client/images/catalogue/products/9780/00/7532780/xlarge/9780007532780_1.jpg</image>
+      <reviews>
+         <review>
+            <name>Andrew</name>
+            <comment>Awful book</comment>
+            <date>19/08/16</date>
+         </review>
+         <review>
+            <name>Jamie</name>
+            <comment>Amazing book, I feel enlightened</comment>
+            <date>19/08/16</date>
+         </review>
+      </reviews>
+   </book>
 </books>

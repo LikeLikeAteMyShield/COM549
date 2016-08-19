@@ -15,18 +15,23 @@
         </div>
     </div>
     <div class="container">
-    <div class="row">
+    <div class="panel-body">
 
 <?php 
     if (count($books) == 0) {
 ?>
-    <p>You have no books.</p>
+    <div class="container">
+    <div class="col-md-6 col-md-offset-3 regbutton"> 
+        <a href="books.php"><button type="button" class="btn btn-primary">Click Here To Add Books</button></a>
+    </div>
+</div>
 <?php } ?>
 
 <?php
     foreach($books as $book) { ?>
         <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-            <?php echo "<img class='book-image' src='$book->image'/>"; ?>
+            <?php $id = $book['id']; ?>
+            <?php echo "<a href='book.php?id=$id'><img class='book-image' src='$book->image'/></a>"; ?>
             <p></p>
         </div>
     <?php

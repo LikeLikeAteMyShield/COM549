@@ -34,9 +34,7 @@ body {
 }
 
 .jumbotron {
-	background: transparent;
-
-    border-bottom: 2px solid B5ADA6;
+	background: #BDC8D8;
     font-family: sans-serif;
 }
 
@@ -136,4 +134,8 @@ body {
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
 	}
+}
+
+.regbutton {
+    text-align: center;
 }
